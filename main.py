@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 
 from dictionary.britannica import (
     get_entries,
@@ -25,3 +25,9 @@ async def say_hello(name: str):
 async def britannica_entries(word: str):
     entries = get_entries(word)
     return {"entries": entries}
+
+
+@app.get("/britannica/total_entries/{word}")
+async def britannica_total_entries(word: str):
+    total_entries = get_total_entries(word)
+    return {"total_entries": total_entries}
