@@ -1,6 +1,12 @@
 from fastapi import FastAPI
 
-from dictionary.britannica import get_entries, get_total_entries, get_word_of_the_day, get_parts, get_definitions
+from dictionary.britannica import (
+    get_entries,
+    get_total_entries,
+    get_word_of_the_day,
+    get_parts,
+    get_definitions
+)
 
 app = FastAPI()
 
@@ -13,3 +19,9 @@ async def root():
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
+
+
+@app.get("/britannica/entries/{word}")
+async def britannica_entries(word: str):
+    entries = get_entries(word)
+    return {"entries": entries}
