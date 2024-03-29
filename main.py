@@ -43,3 +43,9 @@ async def britannica_word_of_the_day():
 async def britannica_parts(word: str):
     parts = get_parts(word)
     return {"parts_of_speech": parts}
+
+
+@app.get("/britannica/definitions/{word}")
+async def britannica_definitions(word: str):
+    definitions = get_definitions(word)
+    return {"definitions": definitions}
