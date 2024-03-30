@@ -49,3 +49,8 @@ async def britannica_parts(word: str):
 async def britannica_definitions(word: str):
     definitions = get_definitions(word)
     return {"definitions": definitions}
+
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
