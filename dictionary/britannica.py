@@ -149,7 +149,7 @@ def get_definitions(word):
                 if definitions and examples:
                     for definition, example in zip(definitions, examples):
                         meaning = definition.get_text(strip=True)
-                        example_list = [example.get_text(strip=True) for example in examples]
+                        example_list = [example.get_text(strip=False) for example in examples]
                         definitions_with_examples.append({'meaning': meaning, 'examples': example_list})
                 elif definitions:
                     for definition in definitions:
