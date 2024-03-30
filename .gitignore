@@ -1,3 +1,4 @@
 /.idea
 /test_main.http
 /__pycache__
+.vercel
