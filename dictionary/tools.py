@@ -1,11 +1,12 @@
 # tools.py
-'''Module for common tools'''
+"""Module for common tools"""
 
 import requests
 from bs4 import BeautifulSoup
 
+
 def get_soup(url):
-    '''
+    """
     Get BeautifulSoup object for a URL
 
     Args:
@@ -13,7 +14,7 @@ def get_soup(url):
 
     Returns:
         BeautifulSoup: BeautifulSoup object for the URL, or None if unable to retrieve
-    '''
+    """
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an exception for bad status codes
