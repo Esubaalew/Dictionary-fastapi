@@ -52,5 +52,5 @@ async def britannica_definitions(word: str):
 
 
 @app.get("/")
-async def root():
+async def index():
     return {"message": "Hello World"}
