@@ -38,7 +38,7 @@ app.add_middleware(
 
 
 @app.get("/entries/{word}")
-async def britannica_entries(word: str):
+async def entries(word: str):
     """
     Retrieve entries for a given word from the Britannica Dictionary.
 
@@ -53,7 +53,7 @@ async def britannica_entries(word: str):
 
 
 @app.get("/total_entries/{word}")
-async def britannica_total_entries(word: str):
+async def total_entries(word: str):
     """
     Retrieve the total number of entries for a given word from the Britannica Dictionary.
 
@@ -68,7 +68,7 @@ async def britannica_total_entries(word: str):
 
 
 @app.get("/word_of_the_day")
-async def britannica_word_of_the_day():
+async def word_of_the_day():
     """
     Retrieve the word of the day from the Britannica Dictionary.
 
@@ -80,7 +80,7 @@ async def britannica_word_of_the_day():
 
 
 @app.get("/speeches/{word}")
-async def britannica_parts(word: str):
+async def parts(word: str):
     """
     Retrieve the parts of speech for a given word from the Britannica Dictionary.
 
@@ -95,7 +95,7 @@ async def britannica_parts(word: str):
 
 
 @app.get("/definitions/{word}")
-async def britannica_definitions(word: str):
+async def  definitions(word: str):
     """
     Retrieve the definitions and examples for a given word from the Britannica Dictionary.
 
