@@ -2,7 +2,7 @@
 
 This project provides a collection of APIs built using FastAPI that interact with the Britannica Dictionary. It allows users to retrieve various information such as entries, total entries, word of the day, parts of speech, and definitions for words.
 
-The APIs utilize the functionality provided by the [Dictionary-Kotlin](https://github.com/Esubaalew/Dictionary-Kotlin) or [Dictionary-Python](https://github.com/Esubaalew/Dictionary) package as magic! ✨<br/>
+The APIs utilize the functionality provided by the [Dictionary-Kotlin](https://github.com/Esubaalew/Dictionary-Kotlin) or [Dictionary-Python](https://www.piwheels.org/project/britannica-dictionary/) package as magic! ✨<br/>
 
 This API is also available [Here](https://azeb.onrender.com/) and has serving [Azeb's Dictionary](https://azeb.vercel.app/)
 
@@ -20,7 +20,7 @@ This API is also available [Here](https://azeb.onrender.com/) and has serving [A
 ## Credits
 
 - [FastAPI](https://fastapi.tiangolo.com/)
-- [Dictionary-Kotlin](https://github.com/Esubaalew/Dictionary-Kotlin) or [Dictionary-Python](https://github.com/Esubaalew/Dictionary)
+- [Dictionary-Kotlin](https://github.com/Esubaalew/Dictionary-Kotlin) or [Dictionary-Python](https://www.piwheels.org/project/britannica-dictionary/)
 
 ## License
 
