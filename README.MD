@@ -4,7 +4,7 @@ This project provides a collection of APIs built using FastAPI that interact wit
 
 The APIs utilize the functionality provided by the [Dictionary-Kotlin](https://github.com/Esubaalew/Dictionary-Kotlin) or [Dictionary-Python](https://www.piwheels.org/project/britannica-dictionary/) package as magic! ✨<br/>
 
-This API is also available [Here](https://azeb.onrender.com/) and has serving [Azeb's Dictionary](https://azeb.vercel.app/)
+This API is also available [Here](https://aziye.esubalew.et/) and has serving [Azeb's Dictionary](https://azeb.esubalew.et/)
 
 
 
